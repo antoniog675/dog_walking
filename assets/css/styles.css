@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Zen+Kurenaido&display=swap');
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 700px) {
+      .header {
+          display: flex;
+          flex-direction: row;
+          background-color: yellow;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+  }
