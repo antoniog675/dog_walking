@@ -1,14 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Zen+Kurenaido&display=swap');
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 700px) {
-      .header {
-          display: flex;
-          flex-direction: row;
-          background-color: yellow;
-          align-items: center;
-          justify-content: space-between;
-      }
+@media screen and (max-width: 500px) {
+    header {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Rowdies, Arial;
+        border-radius: 10px;
+        padding: 5px;
+    }
 
-  }
+    a {
+        margin: 1rem;
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .hero-image {
+        background: url(../images/hero-image.jpg);
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    section {
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: orange;
+    }
+}
