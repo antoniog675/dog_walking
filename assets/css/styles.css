@@ -9,7 +9,8 @@
         align-items: center;
         font-family: Rowdies, Arial;
         border-radius: 10px;
-        padding: 5px;
+        width: 100%;
+        padding-bottom: 5px;
     }
 
     a {
@@ -32,9 +33,32 @@
     }
 
     section {
-        height: 100px;
+        height: auto;
         margin-top: 10px;
         margin-bottom: 10px;
         background-color: orange;
+        border-radius: 10px;
+        width: 100%;
+        padding-bottom: 5px;
+        font-family: Zen Kurenaido;
+        font-size: 20px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .contact {
+        background-color: black;
+        color: white;
+        font-family: Zen Kurenaido;
+        text-align: center;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    iframe {
+        height: 200px;
+        width: 100%;
     }
 }
